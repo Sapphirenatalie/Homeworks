@@ -8,6 +8,3 @@ def print_params(day_of_week):
 
 print_params(day_of_week='i')
 print_params(day_of_week='i')
-
-print_params(day_of_week='i')
-print_params(day_of_week='i')

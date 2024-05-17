@@ -1,8 +1,10 @@
-def test_(a, b):
+def test_():
+    a = 11
+    b = 45
     print(a, b)
 
 
-test_(11, 45)
+test_()
 
 
 def test_2(a, b, c):

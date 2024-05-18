@@ -25,5 +25,4 @@ print('Распаковка + отдельные параметры:')
 values_list_2 = ['Санкт-Петербург', 1703]
 
 
-print_params(42, *values_list_2)
-# print_params(*values_list_2, 42) это не работает, так как распаковка должна идти после
+print_params(*values_list_2, 42)

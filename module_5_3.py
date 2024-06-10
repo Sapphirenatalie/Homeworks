@@ -1,5 +1,3 @@
-
-
 class Building:
 
     def __init__(self, floors, types):
@@ -28,4 +26,3 @@ if house_1 == house_2:
     print('дома одинаковые')
 else:
     print('дома различаются')
-

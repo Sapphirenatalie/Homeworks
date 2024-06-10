@@ -7,7 +7,7 @@ class Building:
         Building.total = quantity
 
         for i in range(1, Building.total + 1):
-            if i <= self.total:
+            if i <= Building.total:
                 print(f'Здание № {i}\n{self.buildingType}\n{self.numberOfFloors} этажей \n')
 
 

@@ -5,7 +5,7 @@ class Building:
     def __init__(self, floors, types):
         self.numberOfFloors = floors
         self.buildingType = types
-        print('кол-во этажей -', self.numberOfFloors, ', тип обЪекта - ', self.buildingType)
+        print('кол-во этажей -', self.numberOfFloors, ', тип объекта - ', self.buildingType)
 
     def __eq__(self, other):
         return self.numberOfFloors == other.numberOfFloors and self.buildingType == other.buildingType

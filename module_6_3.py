@@ -1,6 +1,9 @@
 class Vehicle:
-    vehicle_type = None
-
+    vehicle_type = None    
+    # задании указано "none" (строка с текстом “None”).
+    # Замена на спец. тип данных None в данном задании ничего не изменяет.
+    # Поэтому я поставила None из-за красоты восприятия.
+    
     def __init__(self, vehicle_type):
         Vehicle.vehicle_type = vehicle_type
 

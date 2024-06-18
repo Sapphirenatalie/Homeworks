@@ -12,7 +12,7 @@ class Car:
         Car.price = price
 
     def horse_powers(self):
-        horse_power = 102
+        horse_power = 90
         return f'Мощность: {horse_power} л.с.'
 
 
@@ -25,7 +25,7 @@ class Nissan(Vehicle, Car):
         print(f'Автомобиль {__class__.__name__} {vehicle_type}, Цена: {price}, {super().horse_powers()}')
 
     def horse_powers(self):
-        horse_power = 90
+        horse_power = 102
         return f'Мощность: {horse_power} л.с.'
 
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     print('\nПереопределение свойств price и vehicle_type, и функции horse_powers')
     car.vehicle_type = 'X-Trail'
-    car.price = 879000
+    car.price = 2500000
     car.horse_powers()
 
     print(f'Автомобиль {Nissan.__name__} {car.vehicle_type}, Цена: {car.price}, {car.horse_powers()}')
